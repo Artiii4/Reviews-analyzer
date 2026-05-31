@@ -1,0 +1,51 @@
+.stApp {
+    background: radial-gradient(circle at top left, #26374f 0, #101827 38%, #060d18 100%);
+    color: #f8fafc;
+}
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1140px;
+}
+.ra-hero {
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.20), rgba(15, 23, 42, 0.74));
+    border-radius: 28px;
+    padding: 1.6rem 1.8rem;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.33);
+    margin-bottom: 1.1rem;
+}
+.ra-title {
+    font-size: 3.25rem;
+    font-weight: 850;
+    letter-spacing: -0.055em;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+}
+.ra-subtitle {
+    color: #dbeafe;
+    font-size: 1.08rem;
+    max-width: 820px;
+}
+.ra-card {
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    background: rgba(15, 23, 42, 0.68);
+    border-radius: 24px;
+    padding: 1.15rem 1.25rem;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.24);
+    margin-bottom: 1rem;
+}
+.ra-pill {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 0.34rem 0.78rem;
+    background: rgba(37, 99, 235, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.3);
+    color: #bfdbfe;
+    margin-right: 0.42rem;
+    margin-bottom: 0.42rem;
+    font-size: 0.9rem;
+}
+div[data-testid="stMetricValue"] {
+    color: #f8fafc;
+}
